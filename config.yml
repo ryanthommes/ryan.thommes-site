@@ -1,0 +1,34 @@
+baseURL: ""
+languageCode: en-us
+title: ryan.thommes.me
+theme: PaperMod
+
+params:
+  profileMode:
+    enabled: true
+    title: "Ryan Thommes" # optional default will be site title
+    subtitle: "BS in CS @ UIC"
+    imageUrl: "./drake.png" # optional
+    imageTitle: "drizzy" # optional
+  socialIcons:
+    - name: "email"
+      url: "mailto:ryan@thommes.me"
+    - name: "github"
+      url: "https://github.com/ryanthommes"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/ryanthommes/"
+    - name: "twitter"
+      url: "https://www.twitter.com/ryanthommes/"
+    - name: "instagram"
+      url: "https://www.instagram.com/ryanthommes/"
+
+menu:
+  main:
+    - identifier: "resume"
+      name: "resume"
+      url: "/resume"
+      weight: 10
+    - identifier: "archives"
+      name: "archives"
+      url: "/archives"
+      weight: 20
