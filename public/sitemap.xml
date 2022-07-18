@@ -2,23 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/blog/</loc>
+    <loc>https://ryan.thommes.me/blog/</loc>
     <lastmod>2022-07-17T11:31:28-07:00</lastmod>
   </url><url>
-    <loc>/blog/first/</loc>
+    <loc>https://ryan.thommes.me/tags/first/</loc>
     <lastmod>2022-07-17T11:31:28-07:00</lastmod>
   </url><url>
-    <loc>/</loc>
+    <loc>https://ryan.thommes.me/blog/first/</loc>
     <lastmod>2022-07-17T11:31:28-07:00</lastmod>
   </url><url>
-    <loc>/under_construction/</loc>
+    <loc>https://ryan.thommes.me/</loc>
+    <lastmod>2022-07-17T11:31:28-07:00</lastmod>
   </url><url>
-    <loc>/archives/</loc>
+    <loc>https://ryan.thommes.me/tags/</loc>
+    <lastmod>2022-07-17T11:31:28-07:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://ryan.thommes.me/archives/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://ryan.thommes.me/categories/</loc>
   </url><url>
-    <loc>/resume/</loc>
+    <loc>https://ryan.thommes.me/resume/</loc>
   </url>
 </urlset>

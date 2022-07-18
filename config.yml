@@ -1,34 +1,80 @@
-baseURL: ""
+# https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-configyml=
+baseURL: "https://ryan.thommes.me"
 languageCode: en-us
 title: ryan.thommes.me
 theme: PaperMod
 
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
 params:
+  env: production
+
+  assets:
+      disableFingerprinting: true
+      # favicon: "<link / abs url>"
+      # favicon16x16: "<link / abs url>"
+      # favicon32x32: "<link / abs url>"
+      # apple_touch_icon: "<link / abs url>"
+      # safari_pinned_tab: "<link / abs url>"
+
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+  #   bing:
+  #     SiteVerificationTag: "XYZabc"
+  #   yandex:
+  #     SiteVerificationTag: "XYZabc"
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
   profileMode:
     enabled: true
     title: "Ryan Thommes" # optional default will be site title
     subtitle: "BS in CS @ UIC"
     imageUrl: "./drake.png" # optional
     imageTitle: "drizzy" # optional
+
   socialIcons:
-    - name: "email"
-      url: "mailto:ryan@thommes.me"
-    - name: "github"
+    - name: email
+      url: mailto:ryan@thommes.me
+    - name: github
       url: "https://github.com/ryanthommes"
-    - name: "linkedin"
+    - name: linkedin
       url: "https://www.linkedin.com/in/ryanthommes/"
-    - name: "twitter"
+    - name: twitter
       url: "https://www.twitter.com/ryanthommes/"
-    - name: "instagram"
+    - name: instagram
       url: "https://www.instagram.com/ryanthommes/"
 
 menu:
   main:
-    - identifier: "resume"
-      name: "resume"
+    - identifier: resume
+      name: resume
       url: "/resume"
       weight: 10
-    - identifier: "archives"
+    - identifier: archives
       name: "archives"
       url: "/archives"
       weight: 20
