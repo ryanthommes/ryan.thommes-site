@@ -20,10 +20,10 @@ disableHLJS: false
 hideSummary: false
 searchHidden: true
 ShowReadingTime: true
-ShowBreadCrumbs: false
+ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
-ShowRssButtonInSectionTermList: false
+ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
     image: "<image path/url>" # image path/url

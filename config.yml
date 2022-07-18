@@ -1,7 +1,7 @@
 # https://github.com/adityatelange/hugo-PaperMod/wiki/Installation#sample-configyml=
 baseURL: "https://ryan.thommes.me"
 languageCode: en-us
-title: ryan.thommes.me
+title: Ryan Thommes
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -11,14 +11,17 @@ buildExpired: false
 
 params:
   env: production
+  keywords: [Ryan, Thommes, Resume, Portfolio, Blog]
+  author: Ryan Thommes
+  defaultTheme: dark # auto, dark, light
+  disableThemeToggle: false
 
   assets:
       disableFingerprinting: true
-      # favicon: "<link / abs url>"
-      # favicon16x16: "<link / abs url>"
-      # favicon32x32: "<link / abs url>"
-      # apple_touch_icon: "<link / abs url>"
-      # safari_pinned_tab: "<link / abs url>"
+      favicon: "/favicon.ico"
+      favicon16x16:  "/favicon-16x16.png"
+      favicon32x32:  "/favicon-32x32.png"
+      apple_touch_icon:  "/apple-touch-icon.png"
 
   # analytics:
   #   google:
@@ -28,33 +31,14 @@ params:
   #   yandex:
   #     SiteVerificationTag: "XYZabc"
 
-  ShowReadingTime: true
-  ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
-  ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
-  UseHugoToc: true
-  disableSpecial1stPost: false
-  disableScrollToTop: false
-  comments: false
-  hidemeta: false
-  hideSummary: false
-  showtoc: false
-  tocopen: false
-
-  cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+  label: 
+    text: " "
 
   profileMode:
     enabled: true
     title: "Ryan Thommes" # optional default will be site title
     subtitle: "BS in CS @ UIC"
-    imageUrl: "./drake.png" # optional
-    imageTitle: "drizzy" # optional
+    imageUrl: "/rjt.jpg" # optional
 
   socialIcons:
     - name: email
@@ -70,11 +54,19 @@ params:
 
 menu:
   main:
+    - identifier: about
+      name: about
+      url: "/"
+      weight: 10
     - identifier: resume
       name: resume
       url: "/resume"
-      weight: 10
-    - identifier: archives
-      name: "archives"
-      url: "/archives"
       weight: 20
+    - identifier: archives
+      name: archives
+      url: "/archives"
+      weight: 30
+    - identifier: search
+      name: 
+      url: "/search"
+      weight: 40
