@@ -12,7 +12,6 @@ buildExpired: false
 params:
   env: production
   keywords: [Ryan, Thommes, Resume, Portfolio, Blog]
-  author: Ryan Thommes
   defaultTheme: dark # auto, dark, light
   disableThemeToggle: false
 
@@ -52,8 +51,6 @@ params:
       url: "https://www.linkedin.com/in/ryanthommes/"
     - name: twitter
       url: "https://www.twitter.com/ryanthommes/"
-    - name: instagram
-      url: "https://www.instagram.com/ryanthommes/"
 
 menu:
   main:
@@ -61,15 +58,11 @@ menu:
       name: about
       url: "/"
       weight: 10
-    - identifier: resume
-      name: 
-      url: "/resume"
-      weight: 20
-    - identifier: archives
-      name: 
-      url: "/archives"
+    # - identifier: resume
+    #   name: 
+    #   url: "/resume"
+    #   weight: 20
+    - identifier: more
+      name: more
+      url: "/under_construction"
       weight: 30
-    - identifier: search
-      name: 
-      url: "/search"
-      weight: 40
