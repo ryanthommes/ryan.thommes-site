@@ -62,11 +62,11 @@ menu:
       url: "/"
       weight: 10
     - identifier: resume
-      name: resume
+      name: 
       url: "/resume"
       weight: 20
     - identifier: archives
-      name: archives
+      name: 
       url: "/archives"
       weight: 30
     - identifier: search
